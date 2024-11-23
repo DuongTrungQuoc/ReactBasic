@@ -29,3 +29,17 @@
 1. npm i sass
 2. Tạo 1 file SCSS cùng cấp component
 3. Nhúng file SCSS đó vào trong component: import "./TenFile.scss";
+
+## Hooks
+
+- useState
+- useEffect
+- useContext
+- useRef
+- useCallback
+- useMemo
+- useReducer
+- useLayoutEffect (ít dùng)
+- useImperativeHandle (ít dùng)
+- useDebugValue (ít dùng)
+
