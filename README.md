@@ -23,3 +23,9 @@
 
 1. npm i react-icons
 2. https://react-icons.github.io/react-icons/icons/fa/
+
+## SCSS
+
+1. npm i sass
+2. Tạo 1 file SCSS cùng cấp component
+3. Nhúng file SCSS đó vào trong component: import "./TenFile.scss";
