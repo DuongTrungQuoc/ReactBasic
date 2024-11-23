@@ -32,12 +32,15 @@
 
 ## Hooks
 
-- useState
-- useEffect
+Hooks là những cái hàm được viết sẵn trong ReactJS được sử dụng để code các tính năng khác nhau, để sử dụng được các tính năng này ở trong các component ta cần gắn các hooks này vào trong component.
+
+
+- *useState*
+- *useEffect*
 - useContext
-- useRef
-- useCallback
-- useMemo
+- *useRef*
+- useCallback (tối ưu hệ thống)
+- useMemo (tối ưu hệ thống)
 - useReducer
 - useLayoutEffect (ít dùng)
 - useImperativeHandle (ít dùng)
