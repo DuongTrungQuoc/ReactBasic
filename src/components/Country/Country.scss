@@ -1,0 +1,43 @@
+.country {
+  border: 1px solid orange;
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+  display: inline-block;
+  min-width: 200px;
+  font-size: 24px;
+  font-weight: 600;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+
+  &__item {
+    border-bottom: 1px solid orange;
+
+    &:last-child {
+      border-bottom: 0;
+    }
+  }
+
+  &__text {
+    display: block;
+    color: white;
+    background-color: orange;
+    padding: 6px 10px;
+  }
+
+  &__sub {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  &__sub-item {
+    border-bottom: 1px solid orange;
+    padding: 6px 10px;
+
+    &:last-child {
+      border-bottom: 0;
+    }
+  }
+}
