@@ -3,14 +3,22 @@ import Footer from './components/Footer';
 import Header from './components/Header';
 import MainContent from './components/MainContent';
 import NavigationMenu from "./components/NavigationMenu";
-import Content from "./components/Content"
+import Content from "./components/Content";
+import Login from "./components/Login";
+import Menu from './components/Menu';
+import ProductList from './components/ProductList';
+import Country from './components/Country';
 
 function App() {
 
   return (
     <>
+      <Login />
       <Header />
+      <Menu />
       <NavigationMenu />
+      <ProductList />
+      <Country />
       <div className="main">
         <Content text="Content 1" number={5} active={true} border={true} />
         <MainContent />
