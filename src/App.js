@@ -8,11 +8,13 @@ import Login from "./components/Login";
 import Menu from './components/Menu';
 import ProductList from './components/ProductList';
 import Country from './components/Country';
+import Lamp from './components/Lamp';
 
 function App() {
 
   return (
     <>
+      <Lamp />
       <Login />
       <Header />
       <Menu />
