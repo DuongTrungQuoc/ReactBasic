@@ -1,0 +1,41 @@
+.lamp {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+
+  &__button {
+    color: white;
+    background: orange;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 24px;
+    font-weight: 600px;
+    transition: all 1s ease;
+
+    &:hover {
+      color: orange;
+      background: orangered;
+    }
+  }
+
+  &__status {
+    width: 50px;
+    height: 50px;
+
+    &-on {
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+      background: yellow;
+      border: solid 1px red;
+    }
+
+    &-off {
+      background: black;
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+    }
+  }
+}
