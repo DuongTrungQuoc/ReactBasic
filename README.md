@@ -46,3 +46,16 @@ Hooks là những cái hàm được viết sẵn trong ReactJS được sử d�
 - useImperativeHandle (ít dùng)
 - useDebugValue (ít dùng)
 
+### *useState* giúp cập nhật lại trạng thái của dữ liệu (hay cập nhật lại giá trị của dữ liệu).
+Khi dữ liệu thay đổi thì giao diện được cập nhật lại theo dữ liệu mới.
+
+*Ví dụ:* Bóng đèn có 2 status là on/off, Khi tăng số lượng sản phẩm (onChange) thì tổng tiền được cập nhật lại (cập nhật lại quantity -> update total)
+
+*Cú pháp:* const [state, setState] = useState(initialStateValue);
+
+*Set state mới:* setState(newState);
+*Trong đó:* 
+
+- state: là tên biến của state.
+- setState: là một function dùng để cập nhật state.
+- initialStateValue: là giá trị khởi tạo (ban đầu) của state, chỉ dùng 1 lần.
