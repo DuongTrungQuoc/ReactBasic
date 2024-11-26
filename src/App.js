@@ -9,13 +9,15 @@ import Menu from './components/Menu';
 import ProductList from './components/ProductList';
 import Country from './components/Country';
 import Lamp from './components/Lamp';
+import Cart from './components/Cart';
 
 function App() {
 
   return (
     <>
       <Lamp />
-      <Login />
+      <Cart />
+      {/* <Login /> */}
       <Header />
       <Menu />
       <NavigationMenu />
