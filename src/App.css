@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 .box {
   background-color: aquamarine;
   margin-bottom: 15px;
