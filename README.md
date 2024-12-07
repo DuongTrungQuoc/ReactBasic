@@ -10,10 +10,12 @@
 
 **Fix bug: không tương thích giữa phiên bản React (react@19.0.0) và thư viện @testing-library/react (yêu cầu phiên bản React ^18.0.0):**
 
+* cd tới dự án
 1. npm uninstall react react-dom
 2. npm install react@18 react-dom@18
 3. npm install
 4. npm install web-vitals
+   
    ![image](https://github.com/user-attachments/assets/2db6cc44-a5d7-4abe-9528-71505e27e476)
 
 
